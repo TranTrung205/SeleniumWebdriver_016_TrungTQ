@@ -19,7 +19,7 @@ public class Topic_01_SetupEnvironment {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		driver.get("http://demo.guru99.com/v4/");
-		System.out.println("Test");
+		System.out.println("Test Github");
 	}
 
 	@Test

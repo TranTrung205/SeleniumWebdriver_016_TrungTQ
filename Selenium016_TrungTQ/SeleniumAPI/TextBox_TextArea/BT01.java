@@ -1,8 +1,5 @@
 package TextBox_TextArea;
 
-import org.testng.annotations.Test;
-import org.testng.annotations.BeforeClass;
-
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
@@ -10,8 +7,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
 
 public class BT01 {
 	// https://docs.google.com/document/d/1QRI6jdKoCiMB3K7s16f3jEtAVHICdROpw_t30RD8gac/edit#
@@ -19,8 +17,8 @@ public class BT01 {
 	String username = "mngr265312";
 	String password = "epamEzU";
 	String testGuruV4 = "http://demo.guru99.com/v4/";
-	By name = By.name("name");
 	By loginBTN = By.name("btnLogin");
+	By name = By.name("name");
 	By dob = By.name("dob");
 	By address = By.name("addr");
 	By city = By.name("city");
@@ -33,7 +31,7 @@ public class BT01 {
 
 	@BeforeClass
 	public void beforeClass() {
-		System.setProperty("webdriver.chrome.driver","./lib/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "./lib/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().deleteAllCookies();

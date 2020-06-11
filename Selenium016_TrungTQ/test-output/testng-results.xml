@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16082" started-at="2020-06-10T16:10:21Z" finished-at="2020-06-10T16:10:37Z">
+  <suite name="Default suite" duration-ms="9552" started-at="2020-06-11T17:23:11Z" finished-at="2020-06-11T17:23:21Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16082" started-at="2020-06-10T16:10:21Z" finished-at="2020-06-10T16:10:37Z">
-      <class name="TextBox_TextArea.BT01">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TextBox_TextArea.BT01@7006c658]" name="beforeClass" is-config="true" duration-ms="11811" started-at="2020-06-10T23:10:21Z" finished-at="2020-06-10T23:10:33Z">
+    <test name="Default test" duration-ms="9552" started-at="2020-06-11T17:23:11Z" finished-at="2020-06-11T17:23:21Z">
+      <class name="Dropdownlist.BT02">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:Dropdownlist.BT02@f5f2bb7]" name="beforeClass" is-config="true" duration-ms="7350" started-at="2020-06-12T00:23:11Z" finished-at="2020-06-12T00:23:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="BT01()[pri:0, instance:TextBox_TextArea.BT01@7006c658]" name="BT01" duration-ms="4101" started-at="2020-06-10T23:10:33Z" finished-at="2020-06-10T23:10:37Z">
+        <test-method status="PASS" signature="BT02()[pri:0, instance:Dropdownlist.BT02@f5f2bb7]" name="BT02" duration-ms="2055" started-at="2020-06-12T00:23:18Z" finished-at="2020-06-12T00:23:20Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BT01 -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TextBox_TextArea.BT01@7006c658]" name="afterClass" is-config="true" duration-ms="157" started-at="2020-06-10T23:10:37Z" finished-at="2020-06-10T23:10:37Z">
+        </test-method> <!-- BT02 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Dropdownlist.BT02@f5f2bb7]" name="afterClass" is-config="true" duration-ms="133" started-at="2020-06-12T00:23:20Z" finished-at="2020-06-12T00:23:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- TextBox_TextArea.BT01 -->
+      </class> <!-- Dropdownlist.BT02 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

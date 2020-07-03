@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14436" started-at="2020-06-12T18:11:25Z" finished-at="2020-06-12T18:11:40Z">
+  <suite name="Default suite" duration-ms="9178" started-at="2020-07-03T15:50:25Z" finished-at="2020-07-03T15:50:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14436" started-at="2020-06-12T18:11:25Z" finished-at="2020-06-12T18:11:40Z">
-      <class name="Dropdownlist.BT03">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:Dropdownlist.BT03@7006c658]" name="beforeClass" is-config="true" duration-ms="8504" started-at="2020-06-13T01:11:25Z" finished-at="2020-06-13T01:11:34Z">
+    <test name="Default test" duration-ms="9178" started-at="2020-07-03T15:50:25Z" finished-at="2020-07-03T15:50:34Z">
+      <class name="Button_Radio_Checkbox_Alert.TC06_Prompt_Alert">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:Button_Radio_Checkbox_Alert.TC06_Prompt_Alert@f5f2bb7]" name="beforeClass" is-config="true" duration-ms="8893" started-at="2020-07-03T22:50:25Z" finished-at="2020-07-03T22:50:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="TC03()[pri:0, instance:Dropdownlist.BT03@7006c658]" name="TC03" duration-ms="5798" started-at="2020-06-13T01:11:34Z" finished-at="2020-06-13T01:11:40Z">
+        <test-method status="PASS" signature="TC06_Prompt_Alert()[pri:0, instance:Button_Radio_Checkbox_Alert.TC06_Prompt_Alert@f5f2bb7]" name="TC06_Prompt_Alert" duration-ms="265" started-at="2020-07-03T22:50:34Z" finished-at="2020-07-03T22:50:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC03 -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:Dropdownlist.BT03@7006c658]" name="afterClass" is-config="true" duration-ms="117" started-at="2020-06-13T01:11:40Z" finished-at="2020-06-13T01:11:40Z">
+        </test-method> <!-- TC06_Prompt_Alert -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Button_Radio_Checkbox_Alert.TC06_Prompt_Alert@f5f2bb7]" name="afterClass" is-config="true" duration-ms="8" started-at="2020-07-03T22:50:34Z" finished-at="2020-07-03T22:50:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- Dropdownlist.BT03 -->
+      </class> <!-- Button_Radio_Checkbox_Alert.TC06_Prompt_Alert -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
